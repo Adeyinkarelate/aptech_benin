@@ -132,16 +132,14 @@ const Home = () => {
                     Start Your Career with an ICT-DEGEE
                   </h2>
                   <h1 className="text-aptechOrange font-extrabold text-4xl md:text-6xl animate-pulse duration-700 ease-in-out">Aptech Benin </h1>
-                  <p class="text-base text-indigo-100 md:text-lg">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque rem aperiam, eaque ipsa
-                    quae.
+                  <p class="text-base text-indigo-100 md:text-lg tracking-wide">
+                  Are you considering a new career path or you are looking at adding a skill? Let's help you in your decision making and give options on how to reboot your career journey for success.
                   </p>
                 </div>
                 <div>
                   <a
-                    href="/"
-                    class="hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline inline-flex h-12 items-center justify-center rounded px-6 font-semibold tracking-wide text-teal-900 shadow-md transition duration-200 focus:outline-none"
+                    href="/courses"
+                    class="bg-aptechOrange hover:opacity-50 focus:shadow-outline inline-flex h-12 items-center justify-center rounded px-6 font-semibold tracking-wide text-black shadow-md transition duration-200 focus:outline-none"
                   >
                     Get started
                   </a>
