@@ -8,6 +8,7 @@
     "animate.css": "^4.1.1",
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.0.27",
+    "jquery-animated-headlines": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.2.0",

@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import Rosa from "react-on-scroll-animation";
 
 import coursesAcnsImg from "../assets/images/course-acns.jpg";
-import Ikorodu from "../assets/images/Ikorodu.png";
 import coursesAdseImg from "../assets/images/course-adse.jpg";
 import coursesSmartProImg from "../assets/images/course-smartpro.jpg";
 import SchoolsBanner from "../assets/images/schools-banner.png";
 import Testimonials from "../partials/Testimonials";
-import Ba from "../assets/images/ba.jpg"
+import Enroll_Reason_Video from "../assets/videos/enroll-reason.mp4";
+
+import intro from "../assets/images/intro-banner.jpg";
 
 const popularCourses = [
   {
@@ -79,55 +80,72 @@ const Home = () => {
   return (
     <div className="sm:mt-14 ">
       {/* Carousel */}
-      <header className="mt-10 h-[650px]">
-        <div class="relative flex flex-col-reverse py-16 lg:flex-col lg:pt-0 lg:pb-0 ">
-          <div class="inset-y-0 top-0 right-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-7/12 lg:max-w-full lg:pr-0 xl:px-0 ">
-            <img
-              class="h-96 md:h-80 w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
-              src={Ba}
-              alt=""
-            />
-          </div>
-          <div class="relative mx-auto flex w-full max-w-xl flex-col items-center px-4 md:items-start md:px-0 lg:max-w-screen-xl lg:px-8">
-            <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-              <p class="mb-4  rounded-full px-3 py-px text-center  text-md font-bold uppercase tracking-wider text-aptechRed md:text-start">
-                Brand new
-              </p>
-              <h2 class="animate__animated animate__fadeInUp font-sans items-center pb-2 text-center text-4xl font-bold uppercase  tracking-tight text-black sm:leading-none md:items-start md:pt-0 md:text-start">
-                APTECH IKORODU
-              </h2>
-              <div class="mx-auto mb-6 h-1 w-28 bg-aptechOrange md:mx-0"></div>
-              <p class=" items-center pr-5 text-center text-base text-gray-700 md:items-start md:text-start md:text-lg">
-                At Aptech Ikorodu, we have rebranded for enhanced efficiency and
-                effectiveness. Students can earn a dual diploma, highly valued
-                by both employers and universities.
-              </p>
-              <div class="flex items-center justify-around gap-4 py-8 text-base md:justify-start md:gap-4">
-                <div class="text-center">
-                  <i class="fa-solid fa-earth-asia py-2 text-4xl text-aptechOrange animate-bounce"></i>
-                  <br />
-                  Rebrand
-                </div>
-
-                <div class="text-center">
-                  <i class="fa-solid fa-droplet py-2 text-4xl text-aptechOrange"></i>
-                  <br />
-                  Effectiveness
-                </div>
-
-                <div class="text-center">
-                  <i class="fa-solid fa-business-time py-2 text-4xl text-aptechOrange"></i>
-                  <br />
-                  Efficency
-                </div>
-              </div>
-              <div class="items-center text-center md:items-start md:text-start">
-                <a
-                  href="/about"
-                  class="focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded bg-black px-6 font-medium tracking-wide text-white shadow-md transition duration-200 hover:bg-gray-700 focus:outline-none"
-                >
-                  Learn More
+      <header className="mt-8">
+        <div class=" flex h-[650px] flex-col items-center justify-center bg-[url('https://aptech-nigeria.com/wp-content/uploads/2022/02/CEH-1-870x440.jpg')] bg-cover bg-center text-center contrast-75 ">
+          <div class="mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
+            <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
+              <div class="mb-16 flex flex-col sm:mb-0 sm:text-center">
+                <a href="/" class="mb-6 sm:mx-auto">
+                  <div class="bg-teal-accent-400 flex h-12 w-12 items-center justify-center rounded-full">
+                    <svg
+                      class="text-deep-purple-900 h-10 w-10"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </div>
                 </a>
+                <div class="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
+                  <h2 class="font-sans mb-6 max-w-lg text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                      <svg
+                        viewBox="0 0 52 24"
+                        fill="currentColor"
+                        class="text-deep-purple-accent-100 absolute top-0 left-0 z-0 -mt-8 -ml-20 hidden w-32 sm:block lg:-ml-28 lg:-mt-10 lg:w-32"
+                      >
+                        <defs>
+                          <pattern
+                            id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                            x="0"
+                            y="0"
+                            width=".135"
+                            height=".30"
+                          >
+                            <circle cx="1" cy="1" r=".7"></circle>
+                          </pattern>
+                        </defs>
+                        <rect
+                          fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                          width="52"
+                          height="24"
+                        ></rect>
+                      </svg>
+                      <span class="relative">Kick</span>
+                    </span>
+                    Start Your Career with an ICT-DEGEE
+                  </h2>
+                  <h1 className="text-aptechOrange font-extrabold text-4xl md:text-6xl animate-pulse duration-700 ease-in-out">Aptech Benin </h1>
+                  <p class="text-base text-indigo-100 md:text-lg">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque rem aperiam, eaque ipsa
+                    quae.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="/"
+                    class="hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline inline-flex h-12 items-center justify-center rounded px-6 font-semibold tracking-wide text-teal-900 shadow-md transition duration-200 focus:outline-none"
+                  >
+                    Get started
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -188,7 +206,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-75 px-6 py-4 text-center opacity-0 transition-opacity duration-200 hover:opacity-100">
                   <p className="mb-4 text-lg font-bold text-gray-100">STEP 1</p>
                   <p className="text-sm tracking-wide text-gray-300">
-                    ENROL FOR ADSE AT APTECH IKORODU
+                    ENROL FOR ADSE AT APTECH Benin
                   </p>
                 </div>
               </div>
@@ -258,16 +276,17 @@ const Home = () => {
         </div>
       </section>
       {/* Why Choose Us =============================================================================================*/}
+      <div className="bg-gray-900 text-white">
       <div className="mx-auto px-4 py-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-8">
         <div className="row-gap-8 grid gap-12 lg:grid-cols-2">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center items-center">
             <div className="mb-6 max-w-xl">
               <Rosa animation={"fade-up"} once>
-                <h2 className="font-sans item-center mb-6 max-w-lg text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:items-start md:text-start">
-                  APTECH IKORODU- A GLOBAL LEARNING SOLUTIONS PROVIDER
+                <h2 className="font-sans item-center mb-6 max-w-lg text-center text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none md:items-start md:text-start">
+                  APTECH BENIN- A GLOBAL LEARNING SOLUTIONS PROVIDER
                 </h2>
               </Rosa>
-              <p className="item-center text-center text-base text-gray-700 md:items-start md:text-start md:text-lg">
+              <p className="item-center text-center text-base text-white md:items-start md:text-start md:text-lg">
                 Are you considering a new career path or you are looking at
                 adding a skill? Let's help you in your decision making and give
                 options on how to reboot your career journey for success.
@@ -281,7 +300,7 @@ const Home = () => {
                 <h6 className="mb-2 font-semibold leading-5">
                   Students get Advanced Diploma in Software Engineering (ADSE)
                 </h6>
-                <p className="text-sm text-gray-900">
+                <p className="text-sm text-white">
                   which is valued by employers and universities worldwide. With
                   over 30 years of expertise in IT training, aptech is sure to
                   build careers.
@@ -294,7 +313,7 @@ const Home = () => {
                 <h6 className="mb-2 font-semibold leading-5">
                   Online varsity is an exclusive e-learning portal
                 </h6>
-                <p className="text-sm text-gray-900">
+                <p className="text-sm text-white">
                   with a 24x7 access from anywhere, any platform, any time, any
                   place. It offers interactive tools, valuable resources, expert
                   advice and guidance to sharpen students' skill beyond the
@@ -304,13 +323,18 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img
-              className=" w-full rounded object-cover shadow-lg  sm:h-96 md:h-auto md:object-fill"
-              src={Ikorodu}
-              alt="aptech ikorodu"
-            />
+            <video
+              autoPlay
+              muted
+              loop
+              className="pointer-events-none  h-full w-full object-cover rounded-sm"
+              preload="metadata"
+            >
+              <source src={Enroll_Reason_Video} type="video/mp4" />
+            </video>
           </div>
         </div>
+      </div>
       </div>
       {/* Popular Courses */}
       <section className="mt-8 text-gray-900">

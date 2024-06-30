@@ -14,7 +14,7 @@ const About = () => {
       <IntroBanner
         bannerTitle="About"
         bannerTitleYellow="Us"
-        bannerText="All About Aptech Computer Education Ikorodu"
+        bannerText="All About Aptech Computer Education Benin"
       />
 
       {/* Feature 1 */}
@@ -22,7 +22,7 @@ const About = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-aptechRed uppercase rounded-full bg-teal-accent-400">
-            Aptech Ikorodu
+            Aptech Benin
           </p>
         </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -51,10 +51,10 @@ const About = () => {
             </svg>
             <span className="relative">Prepare</span>
           </span>{' '}
-          for your career with digital skills training at Aptech Ikorodu.
+          for your career with digital skills training at Aptech Benin.
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-        Aptech Computer Education, Ikorodu, Lagos State came into being when Avigo Technology Limited acquired the ICT Educational franchise from Aptech Computer Education, Mumbai India. 
+        Aptech Computer Education, Benin, Lagos State came into being when Avigo Technology Limited acquired the ICT Educational franchise from Aptech Computer Education, Mumbai India. 
         </p>
       </div>
       <div className="mx-auto lg:max-w-2xl">
@@ -136,7 +136,7 @@ const About = () => {
                 students/graduates from other elite Universities.
               </p>
               <p className="mt-2 text-justify text-gray-700">
-                Aptech Computer Education, Ikorodu have alliance with Middlesex
+                Aptech Computer Education, Benin have alliance with Middlesex
                 University as well as Portsmouth University, London, United
                 Kingdom. To expatiate further, our students after 24 months
                 programme in Advanced Diploma in Software Engineering (ADSE)
